@@ -25,9 +25,9 @@ except FileNotFoundError:
 if lang not in msg:
     lang = 'en'
 
-sg.popup(msg[lang]['msg1'], title='xD', button_type=sg.POPUP_BUTTONS_OK, icon=icon)
+sg.popup(msg[lang]['msg1'], title='HACKED.', button_type=sg.POPUP_BUTTONS_OK, icon=icon)
 
-sg.popup(msg[lang]['msg2'], title='Hmmm', button_type=sg.POPUP_BUTTONS_OK, icon=icon)
+sg.popup(msg[lang]['msg2'], title='THOUGHT FOR THE SOUL.', button_type=sg.POPUP_BUTTONS_OK, icon=icon)
 
 choice, _ = sg.Window(
     '❤',
